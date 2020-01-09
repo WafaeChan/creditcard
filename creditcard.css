@@ -1,0 +1,94 @@
+.creditcard {
+    display: flex;
+    flex-direction: row;
+    margin: 20%;
+}
+
+.physicalcard {
+    min-width: 500px;
+    height: 300px;
+    background:linear-gradient(138deg, rgb(0, 2, 131) 0%, rgb(0, 71, 179) 100%);
+    border-radius: 15px;
+}
+
+.mastercard {
+    margin-left: 10px;
+    margin-top: 17%;
+    z-index: 10;
+}
+
+.smartchip {
+    border-radius: 14px;
+    margin-left: 25px;
+    margin-top: -25%
+}
+
+.companyname {
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 32px
+}
+
+.datacontainer {
+    color: white;
+    margin-left: 25px;
+    display: flex;
+    font-size: 20px;
+    font-family: Courier;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+.inputdata {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+.carddata {
+    max-width: 290px;
+    min-width: 290px;
+    height: auto;
+    word-wrap: break-word
+}
+
+.cardnumber {
+    border: 1px;
+    height: 22px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.name {
+    border: 1px;
+    height: 22px;
+    padding: 3px;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.validthru {
+    border: 1px;
+    height: 22px;
+    padding: 3px;
+    margin-top: -15px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.namevalidthru {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -15px;
+}
+
+.namename {
+
+    font-size: 14px;
+    text-align: left;
+    margin-top: -20px;
+}
