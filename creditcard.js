@@ -63,16 +63,13 @@ class CreditCard extends React.Component {
 
 
 
-    // SHORT FORM / and date : replace(/(.{2})/g, '$1/').trim()
-    //   slicySpicy = (wafa) => {
-    //       const  mynumber = mynumber.toString()
-    //       let resultStr = ''
-    //       for(let i =0; i < mynumber.length; i += 4) {
-    //         resultStr += mynumber.slice(i, i + 4) + ' '
-    //       }
-    //       return resultStr.trim()
-
-    //   }
+    // slicySpicy = (wafa) => {
+    //     let a=String(wafa).split('')
+    //     for(let i=4;i<a.length;i=i+5){
+    //       a.splice(i,0," ")
+    //     }
+    //       return a.join('')
+    // }
 
     render() {
         return (
